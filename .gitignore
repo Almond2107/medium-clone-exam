@@ -1,0 +1,55 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# VSCode / PyCharm / IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+log/
+logs/
+
+# SQLite / DB backups (agar ishlatilsa)
+*.sqlite3
+*.db
+
+# Alembic / Migrations cache (agar kerak bo‘lsa)
+*.pyc
+alembic/versions/__pycache__/
+
+# Celery / Redis
+celerybeat-schedule
+*.pid
+
+# Uvicorn / ASGI server
+*.sock
+*.pid
+
+# Media / Uploads (agar saqlansa)
+media/
+uploads/
+
+# MacOS files
+.DS_Store
+
+# Linux thumbnail caches
+.thumbnails/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# pytest / test artifacts
+.pytest_cache/
