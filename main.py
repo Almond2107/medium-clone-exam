@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.routers import auth, users, article  # keyin articles, admin qo‘shamiz
+from app.routers import auth, users, article  
 from app.admin.settings import admin
 from app.middleware import ProcessTimeLoggerMiddleware, origins
 from fastapi.staticfiles import StaticFiles
