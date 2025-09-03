@@ -9,6 +9,7 @@ dependencies = [
     "celery>=5.5.3",
     "email-validator>=2.3.0",
     "fastapi>=0.116.1",
+    "jinja2>=3.1.6",
     "jose>=1.0.0",
     "passlib[context]>=1.7.4",
     "psycopg2-binary>=2.9.10",
